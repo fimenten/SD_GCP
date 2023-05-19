@@ -1,0 +1,4 @@
+docker build . -t mydiffusion
+docker tag mydiffusion us-east1-docker.pkg.dev/mydi-387213/stablediffusion/mydiffusion
+gcloud auth configure-docker us-east1-docker.pkg.dev
+docker push us-east1-docker.pkg.dev/mydi-387213/stablediffusion/mydiffusion
