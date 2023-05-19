@@ -19,3 +19,4 @@ RUN git clone -b v1.6 https://github.com/camenduru/stable-diffusion-webui-huggin
 RUN git clone -b v1.6 https://github.com/camenduru/sd-civitai-browser extensions/sd-civitai-browser
 RUN git clone -b v1.6 https://github.com/camenduru/sd-webui-additional-networks extensions/sd-webu
 
+
